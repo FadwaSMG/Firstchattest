@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TestSighnUp">
+    <ImageView
+        android:id="@+id/applogo"
+        android:layout_width="158dp"
+        android:layout_height="158dp"
+        android:src="@drawable/img"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"/>
+    <EditText
+        android:id="@+id/editname"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_below="@+id/applogo"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="28dp"
+        android:hint="Name"
+        android:padding="13dp"
+        android:background="@drawable/edt_background"
+        android:minHeight="48dp" />
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_below="@id/editname"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="28dp"
+        android:hint="Email"
+        android:padding="13dp"
+        android:background="@drawable/edt_background"
+        android:minHeight="48dp" />
+    <EditText
+        android:id="@+id/editPasswd"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_below="@id/editEmail"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="28dp"
+        android:hint="password"
+        android:padding="13dp"
+        android:background="@drawable/edt_background"
+        android:minHeight="48dp" />
+    <Button
+        android:id="@+id/btnSignup1"
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editPasswd"
+        android:text="Sigh Up"
+        android:background="@drawable/btn_background"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"/>
+
+
+</RelativeLayout>

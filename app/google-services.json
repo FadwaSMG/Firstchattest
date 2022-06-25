@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "180078229895",
+    "project_id": "firsttestmobileapp",
+    "storage_bucket": "firsttestmobileapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:180078229895:android:edb68f360c842698a6fb22",
+        "android_client_info": {
+          "package_name": "com.example.firstchattest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "180078229895-5412703lc7udbtn2eq1t9mogvopt6lt9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUDrZ7tVFt728azaLPWoAPgcQr0Nlq_90"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "180078229895-5412703lc7udbtn2eq1t9mogvopt6lt9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
